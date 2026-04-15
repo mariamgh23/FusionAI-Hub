@@ -1,0 +1,22 @@
+2024-03-01 00:00:02 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=1
+2024-03-01 00:00:04 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=2
+2024-03-01 00:00:06 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=3
+2024-03-01 00:00:08 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=4
+2024-03-01 00:00:10 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=5
+2024-03-01 00:00:12 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=6
+2024-03-01 00:00:14 WARN     Failed login attempt user=root ip=192.168.1.45 attempt=7
+2024-03-01 00:00:16 ERROR    Account locked user=root ip=192.168.1.45 after=7 failures
+2024-03-01 08:00:00 INFO     User admin logged in ip=10.0.0.5
+2024-03-01 08:30:00 INFO     File uploaded filename=q1_report.pdf user=admin size=2.1MB
+2024-03-01 09:00:00 INFO     User jdoe logged in ip=10.0.0.12
+2024-03-01 09:15:00 INFO     Database backup completed size=512MB duration=45s
+2024-03-01 11:00:00 WARN     Sudo command executed user=jdoe cmd='chmod 777 /etc/passwd'
+2024-03-01 11:01:00 ERROR    Privilege escalation detected user=jdoe escalated_to=root
+2024-03-01 23:58:00 WARN     Unusual outbound traffic volume=52MB dest=185.220.101.3 port=443
+2024-03-01 23:59:00 ERROR    DLP alert: sensitive data pattern detected in outbound stream dest=185.220.101.3
+2024-03-02 00:01:00 ERROR    Port scan detected src=203.0.113.77 ports=22,80,443,3306,8080,8443
+2024-03-02 00:02:00 WARN     Firewall rule triggered src=203.0.113.77 action=block
+2024-03-02 03:00:00 CRITICAL Malware signature matched file=/tmp/.hidden/beacon.sh hash=a3f2c1d9
+2024-03-02 03:01:00 CRITICAL Process terminated pid=4821 name=beacon.sh reason=malware
+2024-03-02 17:00:00 INFO     User admin logged out session_duration=8h32m
+2024-03-02 23:00:00 INFO     Nightly vulnerability scan completed findings=3

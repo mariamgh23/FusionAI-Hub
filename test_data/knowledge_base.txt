@@ -1,0 +1,58 @@
+NAS AI Platform — Technical Overview
+=====================================
+
+The NAS AI Platform is a unified AI system built for network-attached storage environments.
+It provides six core capabilities: retrieval-augmented generation, task automation,
+voice interaction, document intelligence, analytics, and security monitoring.
+
+Architecture
+------------
+The platform runs entirely on-premises using Ollama as the local LLM runtime.
+The default chat model is llama3.1:8b. Embeddings are generated using nomic-embed-text
+which produces 384-dimensional vectors suitable for semantic search.
+
+All configuration is managed through environment variables defined in utils/config.py.
+Services share a common LLM utility layer (utils/llm.py) that wraps Ollama's REST API.
+
+RAG Assistant
+-------------
+Documents are split into 500-token chunks with 50-token overlap.
+Chunks are embedded and stored in an in-memory vector store.
+At query time, cosine similarity is used to retrieve the top-4 most relevant chunks.
+The retrieved context is passed to the LLM with a strict grounding prompt.
+
+Task Agent
+----------
+The task agent accepts a high-level goal and uses the LLM to decompose it into
+actionable steps returned as a JSON array. Each step can then be individually executed.
+This is useful for project planning, research workflows, and automation pipelines.
+
+Voice Assistant
+---------------
+Audio input is transcribed using faster-whisper (tiny model, CPU-optimised).
+The transcript is passed to the LLM for a conversational reply.
+Optional TTS output is available via pyttsx3 for fully offline voice interaction.
+
+Document Intelligence
+---------------------
+Supported formats: TXT, PDF, DOCX.
+Features include multi-style summarisation (brief, detailed, bullet-points),
+open-ended Q&A grounded in document content, and named entity extraction.
+
+Analytics AI
+------------
+Users ask questions in plain English. The LLM converts them to SQLite-compatible SQL.
+Results are returned as a Pandas DataFrame, visualised as a bar chart, and explained
+in plain language. A demo database with sales and user tables is auto-created.
+
+Security AI
+-----------
+Log lines are analysed for threats. Individual events can be classified by type and
+severity (Critical / High / Medium / Low). A full incident report can be generated
+from any log dump in plain text format.
+
+Deployment
+----------
+Requirements: Python 3.10+, Ollama, and the packages in requirements.txt.
+Start the app with: python -m streamlit run app.py
+Ollama must be running separately: ollama serve

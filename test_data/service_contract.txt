@@ -1,0 +1,33 @@
+SERVICE AGREEMENT
+=================
+Date: March 1, 2024
+Parties: TechVentures LLC ("Client") and NovaSoft Inc. ("Provider")
+
+1. SCOPE OF SERVICES
+   Provider agrees to deliver a custom AI integration platform including:
+   - REST API development
+   - Model fine-tuning services
+   - 12 months of technical support
+
+2. PAYMENT TERMS
+   Total contract value: $85,000
+   Payment schedule:
+   - 30% upon signing: $25,500
+   - 40% at milestone delivery: $34,000
+   - 30% upon completion: $25,500
+
+3. TIMELINE
+   Project start: April 1, 2024
+   Milestone delivery: July 1, 2024
+   Final delivery: October 1, 2024
+
+4. CONFIDENTIALITY
+   Both parties agree to keep all project details confidential for 3 years.
+
+5. GOVERNING LAW
+   This agreement is governed by the laws of the State of California.
+
+Signed:
+_______________________        _______________________
+Sarah Mitchell, CEO            David Park, CTO
+TechVentures LLC               NovaSoft Inc.

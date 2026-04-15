@@ -1,0 +1,1 @@
+Hello, I need help setting up the analytics dashboard. Can you show me how to query the sales data by region? Also, what is the total revenue for Q1 2024?

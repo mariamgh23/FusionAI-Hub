@@ -1,0 +1,45 @@
+Q1 2024 Business Report — Acme Corporation
+===========================================
+
+Executive Summary
+-----------------
+Acme Corporation achieved record revenue of $4.2M in Q1 2024, representing a 18%
+year-over-year increase. The North region led all territories with $1.8M in sales.
+Operating expenses rose by 6% due to new hires in the engineering division.
+
+Key People
+----------
+- CEO: Sarah Mitchell
+- CFO: James Okafor
+- VP Engineering: Li Wei
+- VP Sales: Priya Nair
+
+Financial Highlights
+--------------------
+Total Revenue:       $4,200,000
+Operating Expenses:  $2,100,000
+Net Profit:          $2,100,000
+Profit Margin:       50%
+
+Regional Breakdown
+------------------
+North:   $1,800,000  (43%)
+South:   $950,000    (23%)
+East:    $850,000    (20%)
+West:    $600,000    (14%)
+
+Top Products
+------------
+1. Gadget X    — $1,950,000
+2. Widget A    — $1,400,000
+3. Widget B    — $850,000
+
+Outlook
+-------
+Q2 2024 guidance is set at $4.5M–$4.8M. The company plans to launch two new product
+lines and expand operations into the European market by June 2024.
+
+Contact
+-------
+Acme Corporation HQ, 100 Innovation Drive, San Francisco, CA 94107
+investor.relations@acme.example.com
