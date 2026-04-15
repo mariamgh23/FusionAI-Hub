@@ -2,6 +2,20 @@
 
 A modular, local-first AI assistant platform powered by [Ollama](https://ollama.com). Six independent AI capabilities — RAG, task automation, voice, document intelligence, analytics, and security — unified under a single Streamlit interface.
 
+## 🏷️ Tech Stack
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_UI-red)
+![Requests](https://img.shields.io/badge/Requests-API_Client-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analytics-lightgrey)
+![PyPDF](https://img.shields.io/badge/PyPDF-PDF_Processing-orange)
+![Python-Docx](https://img.shields.io/badge/python--docx-DOCX_Processing-green)
+![Faster-Whisper](https://img.shields.io/badge/Faster--Whisper-Speech_to_Text-purple)
+![SoundDevice](https://img.shields.io/badge/SoundDevice-Audio_Input-yellow)
+![SoundFile](https://img.shields.io/badge/SoundFile-Audio_Processing-yellowgreen)
+![pyttsx3](https://img.shields.io/badge/pyttsx3-Offline_TTS-blueviolet)
+![gTTS](https://img.shields.io/badge/gTTS-Online_TTS-success)
+![Google API](https://img.shields.io/badge/Google_API-Gmail_Integration-red)
+
 > **No cloud API keys required.** Everything runs on your machine using open-source models.
 
 ---
